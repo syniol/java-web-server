@@ -2,6 +2,8 @@ import com.sun.net.httpserver.HttpServer;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 
+import handler.HealthCheck;
+
 public class Server {
     public static Integer WebServerPort = 80;
     public static Integer SocketBacklog = 0;
@@ -13,7 +15,7 @@ public class Server {
                     SocketBacklog
             );
 
-            server.createContext("/health", new Handler());
+            server.createContext("/health", new HealthCheck());
 
             server.setExecutor(null);
 
