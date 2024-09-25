@@ -3,7 +3,7 @@ This is a Simple Web Server using Java. It could be utilised for a new projects 
 used a health check endpoint for your microservices. It's a simple web server using built-in JDK libraries.
 
 <div style="text-align: center; width: 100%;">
-    <img style="max-width: 50%;" src="https://github.com/syniol/java-web-server/blob/main/cover.jpg?raw=true" alt="Java Web Server Cover">
+    <img style="max-width: 100%; width: 320px;" src="https://github.com/user-attachments/assets/d26641b5-a561-48fe-90f9-bf85fdbb08bf?raw=true" alt="Java Web Server Cover">
 </div>
 
 
@@ -44,6 +44,7 @@ You could also use __Jar__ to create a package to run instead.
 jar cvfm Server.jar manifest.txt *.class  **/*.class
 java -jar Server.jar
 ```
+
 
 ## Useful Commands
 You could alternatively use `make` command at the root of this project to build and run the web server.
