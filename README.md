@@ -1,5 +1,5 @@
 # JAVA WebServer
-This is Java Gorilla Project
+This is a Web Server using Java. It could be utilised for a new projects to create a new RESTful API.
 
 
 ## Environment
