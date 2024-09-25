@@ -2,6 +2,9 @@
 This is a Simple Web Server using Java. It could be utilised for a new projects to create a new RESTful API or 
 used a health check endpoint for your microservices. It's a simple web server using built-in JDK libraries.
 
+<div style="text-align: center; width: 100%;">
+    <img style="max-width: 100%" src="https://raw.githubusercontent.com/syniol/java-web-server/refs/heads/main/cover.jpg" alt="Java Web Server Cover">
+</div>
 
 ## Environment
  * OpenJDK Runtime Environment (build 24-ea+16-1800)
