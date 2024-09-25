@@ -30,7 +30,14 @@ The when you open your browser `localhost:8080/health`, you should see the respo
 {
   "status": "OK"
 }
+```
 
+## Packaging
+You could also use __Jar__ to create a package to run instead.
+
+```bash
+jar cvfm Server.jar manifest.txt *.class  **/*.class
+java -jar Server.jar
 ```
 
 
