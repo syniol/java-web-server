@@ -14,7 +14,23 @@ inside a Docker container.
 
 
 ```bash	
-docker run -it --rm --name java-web-server-syniol -v "$PWD":/usr/local/app --workdir /usr/local/app -p 8080:8080 openjdk:24-oracle bash
+docker run -it --rm --name java-web-server-syniol -v "$PWD":/usr/local/app --workdir /usr/local/app -p 8080:80 openjdk:24-oracle bash
+```
+
+## Up and Running
+Enter the container and run the following commands to transpile `Server.java` to bytecodes and then to run it using `java` runtime.
+```bash
+javac Server.java
+java Server
+```
+
+The when you open your browser `localhost:8080/health`, you should see the response below.
+
+```json
+{
+  "status": "OK"
+}
+
 ```
 
 

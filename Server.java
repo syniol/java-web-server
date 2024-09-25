@@ -20,6 +20,8 @@ public class Server {
             server.setExecutor(null);
 
             server.start();
+
+            System.out.println("\uD83D\uDE80 Server started on port: " + WebServerPort);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
